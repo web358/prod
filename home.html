@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="public/css/style.css" />
+    <title>Cosmetic Products</title>
+</head>
+
+<body>
+<main class="wrapper">
+
+
+  <div class="filter_buttons2">
+    <!-- <h4 data-name="all2"  class="active3" > <p>Всичко</p> </h4> -->
+    <h4 onclick="show_first('zero')"> <p>Начало</p> </h4>
+    <h4 onclick="show_hide('first')"> <p>За нас</p> </h4>
+    <h4 onclick="show_hide('second')"> <p>Продукти</p> </h4>
+    <h4 onclick="show_hide('third')"> <p>Цени</p>   </h4>
+    <h4 onclick="show_hide('fourth')"> <div class="last"><p>Контакти</p></div></h4>
+  </div>
+
+  <div class="bg">
+    <img src="public/images/small6.png" alt="" id="small6">
+    <img src="public/images/small1.png" alt="" id="small1">
+    <img src="public/images/small2.png" alt="" id="small2">
+    <img src="public/images/small5.png" alt="" id="small5">
+    <img src="public/images/small3.png" alt="" id="small3">
+    <img src="public/images/small4.png" alt="" id="small4"> 
+    <img src="public/images/small12.png" alt="" id="small12">
+    <img src="public/images/small7.png" alt="" id="small7">
+    <img src="public/images/small8.png" alt="" id="small8"> 
+    <img src="public/images/small11.png" alt="" id="small11">
+    <img src="public/images/small9.png" alt="" id="small9">   
+    <img src="public/images/small10.png" alt="" id="small10">
+    <img src="public/images/small15.png" alt="" id="small15">
+    <img src="public/images/small13.png" alt="" id="small13">
+    <img src="public/images/small14.png" alt="" id="small14">
+    <img src="public/images/small16.png" alt="" id="small16">
+    <img src="public/images/small17.png" alt="" id="small17">
+    <img src="public/images/small18.png" alt="" id="small17">
+  </div>
+
+  <div class="bg2">
+    <img src="public/images/small1.png" alt="" id="small1">
+    <img src="public/images/small2.png" alt="" id="small2">
+    <img src="public/images/small3.png" alt="" id="small3">
+    <img src="public/images/small18.png" alt="" id="small17">
+  </div>
+
+  <div class="filterable_works">
+    <div class="work" id="first">       
+      <p>
+       Професионални козметични марки<br><br>
+       <br>100% проверени продукти<br><br>
+       <br>Подарък продукт с всяка поръчка над 100лв<br><br>
+       <br>Безплатна доставка при поръчки над 100лв<br><br>
+       <br>Обадете ни се за каталог с пълния набор от продукти
+    </p>        
+  </div>
+
+    <div class="work" id="second">
+      <div class="nav">
+        <ul>
+          <li><ion-icon name="flash-outline"></ion-icon>Коса
+            <p class="product">Перманентна крем боя - Wella Professionals<br>(Виж снимка)</p>       
+            <p class="product">Ароматен оксидант Fanola, 20 vol 6%, 300мл<br>(Виж снимка)</p>          
+            <p class="product">Спрей за термична защита - Fanola Fantouch(Виж снимка)</p>     
+            <p class="product">Оксидант 6 % - Wella Professionals Welloxon<br>(Виж снимка)</p>          
+            <p class="product">Възстановяващ шампоан за увредена коса(Виж снимка)</p>           
+            <p class="product">Шампоан за боядисана коса<br>(Виж снимка)</p>
+          </li>
+          <li><ion-icon name="body-outline"></ion-icon>Тяло
+            <p class="product">Масажно масло Yogi Yamuna, 1000 мл<br>(Виж снимка)</p>       
+            <p class="product">Натурален душ гел 100% витамини<br>(Виж снимка)</p>          
+            <p class="product">Масло от паприка с антицелулитен ефект Yamuna, 1000 мл(Виж снимка)</p>     
+            <p class="product">Душ гел с екстракт от италианска смокиня<br>(Виж снимка)</p>          
+          </li>
+          <li><ion-icon name="eye-outline"></ion-icon>Лице
+            <p class="product">Овлажняващ серум за очи, 30 мл<br>(Виж снимка)</p>       
+            <p class="product">Овлажняващ крем с орхидеи - Lakshmi, 50 мл<br>(Виж снимка)</p>          
+            <p class="product">Околоочна Маска - Lakshmi Netra, 50 мл(Виж снимка)</p>     
+            <p class="product">Крем за лице със сандалово дърво, 100 мл<br>(Виж снимка)</p>          
+          </li>
+          <li><ion-icon name="hand-left-outline"></ion-icon>Ръце и нокти
+            <p class="product">Анти-ейдж крем за ръце за суха кожа, 75 мл<br>(Виж снимка)</p>       
+            <p class="product">3 в 1 лечение за нокти (заздравител, основа, горно покритие)(Виж снимка)</p>          
+          </li>
+          <li><ion-icon name="cube-outline"></ion-icon>Промо Пакети
+            <p class="product" id="lastP">Промо пакетите са изцяло по ваш избор, като цената и отстъпката зависят от вида и броя на избраните продукти</p>       
+          </li>
+        </ul>
+      </div> 
+
+      <div class="hidden">
+        <span class="close2">x</span>
+        <div class="image">
+          <img src="public/images/img-1.png" alt="">
+        </div>
+        <span class="close2">x</span>
+        <div class="image">
+          <img src="public/images/img-2.png" alt="">
+        </div>
+        <span class="close2">x</span>
+        <div class="image">
+          <img src="public/images/img-3.png" alt="">
+        </div>
+        <span class="close2">x</span>
+        <div class="image">
+          <img src="public/images/img-4.png" alt="">
+        </div>
+        <span class="close2">x</span>
+        <div class="image">
+          <img src="public/images/img-5.png" alt="">
+        </div>
+        <span class="close2">x</span>
+        <div class="image">
+          <img src="public/images/img-6.png" alt="">
+        </div>
+        <span class="close2">x</span>
+        <div class="image">
+          <img src="public/images/img-7.png" alt="">
+        </div>
+        <span class="close2">x</span>
+        <div class="image">
+          <img src="public/images/img-8.png" alt="">
+        </div>
+        <span class="close2">x</span>
+        <div class="image">
+          <img src="public/images/img-9.png" alt="">
+        </div>
+        <span class="close2">x</span>
+        <div class="image">
+          <img src="public/images/img-10.png" alt="">
+        </div>
+        <span class="close2">x</span>
+        <div class="image">
+          <img src="public/images/img-11.png" alt="">
+        </div>
+        <span class="close2">x</span>
+        <div class="image">
+          <img src="public/images/img-12.png" alt="">
+        </div>
+        <span class="close2">x</span>
+        <div class="image">
+          <img src="public/images/img-13.png" alt="">
+        </div>
+        <span class="close2">x</span>
+        <div class="image">
+          <img src="public/images/img-14.png" alt="">
+        </div>
+        <span class="close2">x</span>
+        <div class="image">
+          <img src="public/images/img-15.png" alt="">
+        </div>
+        <span class="close2">x</span>
+        <div class="image">
+          <img src="public/images/img-16.png" alt="">
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="work" id="third"> <p>Свържете се с нашите дистрибутори и поръчайте от безплатните ни каталози за да се възползвате от най-изгодните промоции и оферти!</p>  </div>
+
+    <div class="work" id="fourth"> <p>тел: 087981...<br><br><br><br>
+        email: kozmetika@yah....<br><br><br><br>
+        facebook:
+    </p>    </div>
+  </div>
+
+ </main>
+    
+            <footer>
+              <p>Този сайт е изработен от ♥ VickySite ©</p>
+              <p>За да видите още сайтове кликнете
+                <a href="https://vickysite.github.io/3/about.html"><span>тук</span></a></p>
+            </footer>
+       
+    </body>
+    
+</html>
+
+<script src="helper.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+

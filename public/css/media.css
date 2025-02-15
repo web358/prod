@@ -1,0 +1,209 @@
+@media screen and (max-width: 530px) {
+   body {
+      margin-bottom: 40%;
+   }
+   /* ne raboti!!! */
+   /* .nav {
+      margin-top: 5%;
+      margin-left: -25%;
+    }   */
+    }
+    @media screen and (width: 360px) {
+      .hidden {
+       margin-top: -250%;
+     }
+        }
+        @media screen and (width: 344px) {
+         .hidden {
+          margin-top: -250%;
+        }
+           }
+    @media screen and (width: 768px) {
+      body {
+         margin-bottom: 55%;
+      }
+     .nav {
+       margin-top: 160%;
+     }
+     #first {
+      margin-top: 100%;
+    }
+    .bg {
+      display: block;
+      margin-top: -60%;
+      width: 700px;
+    }
+    .hidden {
+      margin-top: -120%;
+    }
+    footer {
+      margin-left: 30%;
+    }
+       }
+
+   @media screen and (width: 820px) {
+      body {
+         margin-bottom: 55%;
+      }
+      .nav {
+           margin-top: 180%;
+      }
+      #first {
+         margin-top: 100%;
+       }
+       #third {
+         margin-top: 100%;
+       }
+       #third p {
+         width: 400px;
+         font-size: 30px;
+       }
+       .bg {
+         margin-top: -50%;
+       }
+       footer {
+         margin-left: 30%;
+       }
+   }
+   /* asus ne raboti, ne6to (margin-top: -45%;) ot site 119 red .nav mu pre4i */
+   /* @media screen and (width: 853px) {
+      body {
+         margin-bottom: 55%;
+      }
+      .nav {
+           margin-top: 180%;
+      }
+      #first {
+         margin-top: 100%;
+       }
+   } */
+   @media screen and (width: 1024px) {
+      body {
+         margin-bottom: 65%;
+      }
+      .bg {
+         margin-top: -50%;
+      }
+      .nav {
+           margin-top: -80%;
+      }
+      #first {
+         margin-top: -30%;
+      }
+      #first p {
+         font-size: 25px;
+      }
+      #third {
+         margin-top: -10%;
+       }
+   }
+   @media screen and (height: 1366px) {
+     #first {
+      margin-top: -20%;
+     }
+   }
+   @media screen and (width: 912px) {
+      body {
+         margin-bottom: 85%;
+      }
+      .bg {
+         margin-top: -50%;
+      }
+      .nav {
+           margin-top: -80%;
+      }
+      #first {
+         margin-top: -40%;
+       }
+   }
+   @media screen and (width: 540px) {
+      body {
+         margin-bottom: 20%;
+      }
+      .nav {
+           margin-top: 60%;
+      }
+      .bg {
+         display: none;
+      }
+      .bg2 {
+        display: block;
+        margin-top: -90%;
+        width: 200px;
+      }
+      #first {
+         margin-top: 50%;
+       }
+       #third {
+         margin-top: 30%;
+       }
+       #third p {
+         width: 200px;
+         font-size: 20px;
+       }
+       footer {
+         margin-left: 30%;
+       }
+   }
+   @media screen and (width: 344px) {
+      body {
+         margin-bottom: 40%;
+      }
+      .nav {
+           margin-top: -50%;
+      }
+      #first {
+         margin-top: -60%;
+       }
+   }
+   @media screen and (width: 1280px) {
+      body {
+         margin-bottom: 60%;
+      }
+      .nav {
+           margin-top: -20%;
+      }
+      #first {
+         margin-top: -10%;
+       }
+   }
+
+
+@media screen and (min-width: 900px) {
+ .filter_buttons2 {
+  width: 10%;
+ }
+ .filterable_works {
+  position: absolute;
+  margin-top : -30%;
+  }
+  .bg {
+   display: block;
+  }
+  .bg2 {
+   display: none;
+  }
+  .hidden {
+   margin-top: -120%;
+  }
+ .work {
+   margin-top: 5%;
+ }
+ #first {
+   margin-left: -15%;
+ }
+ #first p {
+   font-size: 25px;
+}
+ #third p{
+   width: 580px;
+   font-size: 30px;
+   margin-left: -10%;
+ }
+     footer {
+        margin-top: 5%;
+        margin-left: 40%;
+    } 
+  
+  }
+  
